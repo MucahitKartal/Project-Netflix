@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.507);
+  width: 93vw;
+  height: 97vh;
+  /* border: 2px solid red; */
+  margin: 10px auto;
+  /* margin-top: 10px; */
+  /* padding-bottom: 10px; */
+}
+main {
+  color: white;
+  border: 2px solid yellow;
+  /* text-align: center; */
+  height: 10vh;
+}
+main h1,
+p {
+  text-align: center;
+}
+form {
+}
